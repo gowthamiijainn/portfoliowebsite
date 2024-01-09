@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portolio website</title>
+    <!--box icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'rel='stylesheet'>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!--header design-->
+    <header class="header">
+        <a href ="#" class="logo">portfolio</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home"class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#activity">Activity</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header> 
+
+    <!--home section design-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello,It's Me</h3>
+            <h1>Gowthami jain</h1>
+            <h3>And I'm a <span>Electronics and Instrumentation Engineer</span></h3>
+
+
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias provident, soluta nisi ratione  autem beatae magnam explicabo
+            </p>
+
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-facebook-square'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+            </div>
+            <a href="#" class="resume">More About Me</a>
+        </div>
+
+        <div class="home-img">
+            <img src="portfolio-img.jpg" alt="">
+            
+
+        </div>
+
+    </section>
+
+
+    <!--about section design-->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="portfolio-about-img.jpg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 classes ="heading">About <span>Me</span></h2>
+            <h3>Electronics And Instrumentation Engineer</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum qui sint eius soluta amet architecto quo deserunt magnam quasi odit, quisquam doloribus illo vitae laboriosam obcaecati provident hic fugiat.</p>
+
+            <!--<a href="#"class="btn">Look into CV</a>-->
+            <button class="resume"onclick="window.open('resume.pdf','_blank')">Resume</button>
+        </div>
+    </section>
+
+   <!-- services section design-->
+   <section class="sevices" id="sevices">
+    <h2 class="heading">My <span>Skills</span></h2>
+   
+   <div class="services-container">
+
+    <div class="sevices-box">
+        <i class='bx bx-code-alt'></i>
+        <h3>Web Development</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A praesentium minima dolorum qui libero sapiente!</p>
+        <a href="#" class="resume">Read More</a>
+    </div>
+
+    <div class="sevices-box">
+        <i class='bx bxl-figma' ></i>
+        <h3>Graphic Designer</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A praesentium minima dolorum qui libero sapiente!</p>
+        <a href="#" class="resume">Read More</a>
+    </div>
+
+    <div class="sevices-box">
+        <i class='bx bx-code-block' ></i>
+        <h3>Data structure and Algorithm</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A praesentium minima dolorum qui libero sapiente!</p>
+        <a href="#" class="resume">Read More</a>
+    </div>
+
+   </div>
+</section>
+
+
+    <h2 class="heading">Activity <span>Report</span></h2>
+    <button class="resume-center"onclick="window.open('resume.pdf','_blank')">Report</button>
+
+    
+
+
+<!--contact-->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+
+            <input type="Submit" value="Send Message" class="resume">
+        </form>
+    </section>
+     <footer class="footer" >
+        <div class="footer-text">
+            <p> Copyright &copy ; 2024 by Gowthami jain | All Rights reserved .</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href ="#home"><i class="bx bx-up-arrow-alt"></i></a>
+        </div>
+     </footer>
+
+    <!-- scroll reveal-->
+     <script src="https://unpkg.com/scrollreveal"></script>
+
+
+    <!--custom js-->
+    <script src="js/script.js"></script>
+</body>
+</html>
+
